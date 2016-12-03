@@ -10,6 +10,7 @@ body    {
 }
 
 .page-body {
+    /*display: none;*/
     background-color: #e7e7e7;
     border: 1px solid #848584;
     font-family: Verdana;
@@ -22,6 +23,9 @@ body    {
 
 }
 
+#personal, #education, #experience, #skills{
+    display: none;
+}
 
 #wannabe {
 
@@ -34,6 +38,7 @@ body    {
     border: 1px solid #848584;
     margin: 10px;
     font-family: Verdana;
+
 }
 table   {
     border-width: 1px;
@@ -44,4 +49,24 @@ table   {
 h2 {
     padding: 20px;
     margin: 10px;
+}
+
+#top-menu-bar {
+    text-align: center;
+    background-color:#334455;
+    color:#fff;
+    
+}
+#top-menu-bar li {
+    display:inline; margin:0;
+    padding:0;
+}
+#top-menu-bar a {
+    text-decoration: none;
+    padding: 0 15px 0 15px;
+    color: #fff;
+}
+#top-menu-bar a:visited {color: #fff;}
+#top-menu-bar a:hover {
+    color: #334455; background: #fff;
 }

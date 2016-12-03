@@ -43,3 +43,20 @@ for (var i=0;i<category.length;i++){
 }
 
 
+var menu = document.getElementById("top-menu-bar");
+var menuLinks = menu.getElementsByTagName("a");
+
+for (var i=0;i<menuLinks.length;i++){
+    menuLinks[i].onclick = function () {
+        for (var j=0;j<menuLinks.length;j++){
+            var idHide = menuLinks[j].href.split("#")[1];
+            console.info(id);
+            document.getElementById(idHide).style.display = "none";
+        }
+        var id = this.href.split("#")[1];
+        console.info(id);
+        document.getElementById(id).style.display = "block";
+
+    }
+}
+
