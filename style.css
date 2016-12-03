@@ -1,0 +1,47 @@
+body    {
+    background-color: #8a8b8a;
+}
+
+.page-block {
+    background-color: antiquewhite;
+    border: 1px solid #a8a9a8;
+    padding: 10px;
+    font-family: Verdana;
+}
+
+.page-body {
+    background-color: #e7e7e7;
+    border: 1px solid #848584;
+    font-family: Verdana;
+}
+
+#text-important {
+    color: #4a4b4a;
+    background-color: #b2b4af;
+    font-weight: bold;
+
+}
+
+
+#wannabe {
+
+    display: none;
+
+}
+
+.category{
+    background-color: #FFFFFF;
+    border: 1px solid #848584;
+    margin: 10px;
+    font-family: Verdana;
+}
+table   {
+    border-width: 1px;
+    border: double;
+    margin: 10px;
+}
+
+h2 {
+    padding: 20px;
+    margin: 10px;
+}
